@@ -1,0 +1,108 @@
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+    max-width: 1080px;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom:40px;
+    padding-top: 25px;
+
+}
+.navbar a{
+    align-self: flex-end;
+}
+header{
+    display: flex;
+    width: 100%;
+
+}
+.lambdablack{
+    width: 40%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.skyview{
+    width: 100%;
+    height: 150px;
+}
+.container-about-page{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.about-section{
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.container-about-page{
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+    padding: 1em 0;
+}
+.boxesof4 button{
+    border-radius: 0.3em;
+    background-color: white;
+    width: 150px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.boxesof4 img{
+    width: 100%;
+}
+.lastParagraph{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 1em;
+}
+.navbarsouth{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    padding:5px;
+}
+.navbarsouth a{
+    color: white;
+    margin-right: 80px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+h3{
+    font-weight: normal;
+}
